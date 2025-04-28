@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeHer - Privacy Policy</title>
+    <meta name="description" content="Privacy Policy for SafeHer mobile app - ensuring user data protection and transparency.">
+    <meta name="author" content="SafeHer Team">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #0a185f;
+            --secondary-color: #ffffff;
+            --background-color: #e0dada;
+            --accent-color: #0066ff;
+            --text-color: #333;
+            --muted-color: #777;
+            --dark-bg: #121212;
+            --dark-text: #e0e0e0;
+            --dark-card: #1e1e1e;
+            --dark-primary: #66aaff;
+            --navbar-bg: #e6d5d5;
+            --navbar-text: #0e2286;
+            --navbar-bg-dark: #1e1e1e;
+            --navbar-text-dark: #e0e0e0;
+            }
+    body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--background-color);
+    color: var(--text-color);
+    transition: background 0.3s, color 0.3s;
+    line-height: 1.8;
+    }
+
+    header {
+    background: var(--navbar-bg);
+    color: var(--navbar-text);
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: background 0.3s, color 0.3s;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    }
+
+    .nav-left, .nav-center, .nav-right {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    }
+
+    .nav-left { text-align: left; }
+    .nav-center { text-align: center; font-size: 1.6rem; }
+    .nav-right { text-align: right; }
+
+    .dark-toggle {
+    background: none;
+    border: 2px solid currentColor;
+    color: inherit;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+    }
+
+    .dark-toggle:hover {
+    background: rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    background: var(--secondary-color);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: background 0.3s, color 0.3s;
+    }
+
+    h2 {
+    color: var(--primary-color);
+    margin-top: 40px;
+    font-size: 1.6rem;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 6px;
+    }
+
+    p, li {
+    font-size: 1.05rem;
+    margin-bottom: 15px;
+    }
+
+    ul {
+    padding-left: 20px;
+    }
+
+    a {
+    color: var(--accent-color);
+    text-decoration: underline;
+    }
+
+    footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: var(--muted-color);
+    }
+
+    #back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: background 0.3s;
+    }
+
+    #back-to-top:hover {
+    background: #004bcc;
+    }
+
+    /* Dark Mode */
+    body.dark-mode {
+    background: var(--dark-bg);
+    color: var(--dark-text);
+    }
+
+    body.dark-mode .container {
+    background: var(--dark-card);
+    }
+
+    body.dark-mode h2 {
+    color: var(--dark-primary);
+    border-color: var(--dark-primary);
+    }
+
+    body.dark-mode footer {
+    color: #aaa;
+    }
+
+    body.dark-mode header {
+    background: var(--navbar-bg-dark);
+    color: var(--navbar-text-dark);
+    }
+
+    /* Responsive */
+    @media (max-width: 700px) {
+    .container {
+        margin: 30px 15px;
+        padding: 25px 15px;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+    .nav-left, .nav-center, .nav-right {
+        font-size: 1.2rem;
+    }
+    .dark-toggle {
+        padding: 4px 10px;
+        font-size: 0.9rem;
+    }
+    }
+</style>
+</head>
+
+<body>
+
+<header data-aos="fade-down" data-aos-duration="1000">
+    <div class="navbar">
+        <div class="nav-left">SafeHer</div>
+        <div class="nav-center">Privacy Policy</div>
+        <div class="nav-right">
+            <button class="dark-toggle" onclick="toggleDarkMode()" aria-label="Toggle dark mode">🌙</button>
+        </div>
+    </div>
+</header>
+
+<div class="container" data-aos="fade-up" data-aos-duration="1000">
+    <h2>1. Introduction</h2>
+    <p>At SafeHer, your privacy and security are our top priorities. This Privacy Policy explains how we collect, use, and protect your personal information when you use the SafeHer mobile application ("App").</p>
+
+    <h2>2. Information We Collect</h2>
+    <ul>
+        <li><strong>Personal Information:</strong> Name, phone number, and email address for account creation and identification.</li>
+        <li><strong>Location Data:</strong> Real-time tracking is enabled only when safety features are active and stops upon deactivation.</li>
+        <li><strong>Emergency Contacts:</strong> Accessed for functionality but not stored permanently.</li>
+        <li><strong>Device Information:</strong> Such as phone model and OS version for security and troubleshooting.</li>
+    </ul>
+
+    <h2>3. How We Use Your Data</h2>
+    <ul>
+        <li>To trigger emergency alerts and provide safety navigation.</li>
+        <li>To capture/send evidence to emergency contacts or law enforcement.</li>
+        <li>To process subscription payments securely.</li>
+        <li>To maintain and enhance app functionality and security.</li>
+    </ul>
+
+    <h2>4. Data Protection and Compliance</h2>
+    <ul>
+        <li>We use encryption and secure cloud storage for data safety.</li>
+        <li>Compliant with GDPR and India's Information Technology Act.</li>
+        <li>We do not share your personal data for marketing or ads.</li>
+    </ul>
+
+    <h2>5. Data Retention and User Control</h2>
+    <ul>
+        <li>Data is retained only as long as needed for services.</li>
+        <li>Users can disable location tracking anytime.</li>
+    </ul>
+
+    <h2>6. Third-Party Services</h2>
+    <ul>
+        <li>Firebase for secure backend operations.</li>
+        <li>Google Maps for navigation and real-time location tracking.</li>
+        <li>Secure payment gateway for subscriptions.</li>
+        <li>Each third-party service has its own privacy policy.</li>
+    </ul>
+
+    <h2>7. Your Rights</h2>
+    <ul>
+        <li>Request access, correction, or deletion of your personal data.</li>
+        <li>Opt out by discontinuing app usage at any time.</li>
+    </ul>
+
+    <h2>8. Policy Updates</h2>
+    <p>We may update this Privacy Policy. Users will be notified of any significant changes via the App or email.</p>
+
+    <h2>9. Contact Us</h2>
+    <p>Have questions? Reach us at <a href="mailto:safehervideo@gmail.com">safehervideo@gmail.com</a>.</p>
+
+    <p><em>By using SafeHer, you agree to the terms outlined in this Privacy Policy.</em></p>
+</div>
+
+<footer data-aos="fade-up" data-aos-duration="1000">
+    &copy; 2025 SafeHer. All rights reserved.
+</footer>
+
+<button id="back-to-top" onclick="scrollToTop()" aria-label="Back to top">↑</button>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init();
+
+    const topBtn = document.getElementById('back-to-top');
+
+    window.onscroll = function() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            topBtn.style.display = "block";
+        } else {
+            topBtn.style.display = "none";
+        }
+    };
+
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function toggleDarkMode() {
+        document.body.classList.toggle('dark-mode');
+        const button = document.querySelector('.dark-toggle');
+        button.innerHTML = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+    }
+</script>
+
+</body>
+</html>
